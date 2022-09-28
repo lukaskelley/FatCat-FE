@@ -1,0 +1,19 @@
+#Footer {
+  border-top: 1px solid rgba(255, 255, 255, .2) !important;
+  background: white;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.linkTeam {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  color: #6c708d;
+  text-align: center;
+}
+.linkItem {
+  color: #b082d6;
+  border-bottom: 1px solid #b082d6 !important;
+
+}

@@ -1,0 +1,153 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 3rem;
+  padding-top: 1.6rem !important;
+  position: fixed;
+  background: white !important;
+  z-index: 100;
+  width: 100%;
+  background: transparent;
+}
+
+.Navbar {
+  width: 100%;
+}
+
+.logo {
+  color: white !important;
+  width: 60px !important;
+  margin-top: 0.4%;
+}
+
+.headerMenu {
+  padding-top: 6px;
+}
+
+.contactMenu>a {
+  margin-right: 7% !important;
+  font-size: 18px !important;
+  color: #22eaaa;
+}
+.contactMenu>a >i{
+  margin-top:7%;
+  color:#c9b0de;
+  font-size: 28px !important;
+  margin-left: 9%;
+}
+
+.contactMenu>a:hover {
+  color: #8089ef !important;
+}
+
+.contactMenu>a>i:hover {
+  transition: .25s;
+  color: #8089ef !important;
+}
+
+.headerMenu>a {
+  font-size: 1.3rem;
+  transition: .25s;
+  letter-spacing: 1.6px;
+  margin-right: 8%;
+  color:#c9b0de;
+  font-weight: 700;
+}
+
+@media (max-width: 1030px) {
+  .headerMenu>a {
+    margin-right: 4%;
+  }
+}
+
+.headerMenu>a:hover {
+  color: #8089ef !important;
+}
+
+.active {
+  color: #8089ef !important;
+  border-bottom: 3px solid #8089ef;
+}
+
+.mobile-menu-icon {
+  font-size: 20px;
+  text-align: right;
+  color: #c9b0de !important;
+}
+
+@media (max-width: 1920px) {
+  .mobileMenu {
+    display: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerMenu {
+    display: none !important;
+  }
+
+  .mobileMenu {
+    margin-left: 150px;
+    margin-top: 5px;
+    display: block !important;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .headerMenu,
+  .contactMenu {
+    display: none !important;
+  }
+
+  .serviceVideo {
+    height: 200px !important;
+  }
+
+  .mobileMenu {
+    margin-left: 190px !important;
+    margin-top: 4px;
+  }
+
+}
+
+@media (max-width: 990px) {
+  .contactMenu {
+    display: none !important;
+  }
+}
+
+@media (max-width: 545px) {
+  .mobileMenu {
+    margin-left: 320px !important;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 380px) {
+  .mobileMenu {
+    margin-left: 190px !important;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mobileMenu {
+    margin-left: 70% !important;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo {
+    display: none;
+  }
+
+}
+
+@media (max-width: 413px) {
+  .mobileMenu {
+    margin-left: 190px !important;
+    margin-top: 4px;
+  }
+}
