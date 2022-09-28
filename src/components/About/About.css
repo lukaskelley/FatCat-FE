@@ -1,0 +1,32 @@
+#about {
+  padding: 10%;
+}
+.logojpg {
+  margin-top: 15%;
+  width: 100% ;  
+}
+.title {
+  text-transform: uppercase !important;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  color: #c9b0de;
+}
+.content {
+  font-family: var(--font-family-tertiary);
+  font-size: 1.1rem;
+  margin-top: 30px;
+  text-align: left;
+  color: #6c708d;
+  line-height: 2.5rem !important;
+}
+.learnMoreTitleIconContain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.learnMoreTitle, .learnMoreTitleIcon {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #c9b0de;
+}

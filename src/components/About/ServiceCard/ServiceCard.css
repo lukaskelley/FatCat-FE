@@ -1,0 +1,33 @@
+.serviceDetail {
+    height: 250px;
+}
+
+.serviceIcon>i {
+    color: white;
+    font-size: 50px;
+}
+
+.serviceDetail>h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.serviceDetail>p {
+    text-align: left;
+    color: rgba(255, 255, 255, .4);
+}
+
+.serviceDetailContainer>a {
+    text-align: left;
+    color: #22eaaa;
+}
+
+@media (max-width: 380px) {
+    .serviceIcon>i {
+        font-size: 30px;
+    }
+
+    .serviceDetail>h1 {
+        font-size: 20px;
+    }
+}

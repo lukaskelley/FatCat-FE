@@ -1,0 +1,53 @@
+.mintContainer {
+  padding: 3%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  background: black;
+  border: 7px solid #be9fd7;
+}
+
+.mintTitle, .ratioTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center !important;
+  color: #c9b0de;
+}
+.connectTitle {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center !important;
+  color: white;
+}
+.connectBtnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.connectBtn {
+  background-color: #c9b0de;
+  border: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.connectBtn:hover {
+  background-color: #816c92;
+  border: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.functionContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+@media (max-width: 800px) {
+  .Home_contractAddress__ukfNl {
+    font-size: 0.5rem;
+  }
+  .mintContainer {
+    margin-top: 25%;
+  }
+}

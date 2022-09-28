@@ -1,0 +1,13 @@
+#faq {
+  padding: 10%;
+}
+.membershipLink {
+  border-bottom: 2px solid #e2affa;
+  transition: all .25s;
+  color: #e2affa;
+}
+.membershipLink:hover {
+  border-bottom: 2px solid #8089ef;
+  transition: all .25s;
+  color: #8089ef !important;
+}
